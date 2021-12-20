@@ -3,9 +3,6 @@ import time
 import telebot
 from selenium import webdriver
 
-usernameStr = 'andreykakachka@gmail.com'
-passwordStr = 'a1n2d3r4e5y6'
-
 options = webdriver.ChromeOptions()
 
 options.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
